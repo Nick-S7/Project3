@@ -58,10 +58,6 @@ export default class MealDetails extends Component {
               <p>{el.strMeasure9}</p>
             </div>
           </div>
-          <div className="extra-details">
-              
-              <p>Cuisine:{el.strArea}</p>
-          </div>
         </div>
         <div className="instructions">
           <p>{el.strInstructions}</p>
