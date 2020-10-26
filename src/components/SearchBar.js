@@ -39,10 +39,11 @@ class Search extends Component {
             <div className="search-img">
                 <img src='/search-header1.jpg' alt="search-img"/>
             <div className="search">
+            <h3>-Search For Recipes-</h3>
                 <form>
                     <input
                      className="search-field"
-                     placeholder="Search for ...."
+                     placeholder="Search"
                      onChange={this.handleInputChange}
                      />
                 </form>
