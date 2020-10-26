@@ -220,6 +220,11 @@ input[type='text'],
   font-size: 18px;
 }
 
+.detail {
+  display: flex;
+  flex-direction: column;
+}
+
 .detail-img{
   text-align: center;
   width: fit-content;
@@ -290,4 +295,15 @@ input[type='text'],
   color: #fff;
   margin-bottom: 0; 
   font-weight: 700;
+}
+
+.instructions {
+  background-color: rgba(71, 56, 31, 0.342);
+  border: 2px solid rgba(71, 56, 31, 0.445);
+  color: white;
+  font-size: 1.2em;
+  width: 75vw;
+  align-self: center;
+  margin-top: 1vw;
+
 }

@@ -32,6 +32,7 @@ export default class MealDetails extends Component {
           </div>
 
           <div className="iAndM">
+          
             <div className="ingredients">
               <h3>-Ingredients-</h3>
               <p>{el.strIngredient1}</p>
@@ -56,6 +57,10 @@ export default class MealDetails extends Component {
               <p>{el.strMeasure8}</p>
               <p>{el.strMeasure9}</p>
             </div>
+          </div>
+          <div className="extra-details">
+              
+              <p>Cuisine:{el.strArea}</p>
           </div>
         </div>
         <div className="instructions">

@@ -2,11 +2,12 @@ import React from 'react'
 
 const SearchResults = (props) => {
 
+  console.log(props)
   const options = props.results.map(r => (
 
     <div className="single-meal" key={r.idMeal} onClick={() =>{
-      this.props.handleMeals(r.idMeal)
-      this.props.history.push(`/meals:${r.strMeal}`)
+      props.handleMeals(r.idMeal)
+      props.history.push(`/meals:${r.strMeal}`)
   }} >
         <img src={r.strMealThumb} alt="img"/>
         <h2>{r.strMeal}</h2>  

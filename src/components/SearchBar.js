@@ -42,7 +42,7 @@ class Search extends Component {
                 <form>
                     <input
                      className="search-field"
-                     placeholder="Search for the good stuff..."
+                     placeholder="Search for ...."
                      onChange={this.handleInputChange}
                      />
                 </form>
@@ -50,7 +50,7 @@ class Search extends Component {
             </div>
 
             <div className="search-results">
-            <SearchResults results={this.state.results} handleMeals = {this.props.handleMeals} selectedMeal={this.props.selectedMeal} />
+            <SearchResults {...this.props} results={this.state.results} handleMeals = {this.props.handleMeals} selectedMeal={this.props.selectedMeal} />
             </div>
       </div>
     );
