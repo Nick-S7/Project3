@@ -36,8 +36,8 @@ class Search extends Component {
   render() {
     return (
       <div className="search-page">
-            <div className="search-img">
-                <img src='/search-header1.jpg' alt="search-img"/>
+            
+               
             <div className="search">
             <h3>-Search For Recipes-</h3>
                 <form>
@@ -48,7 +48,7 @@ class Search extends Component {
                      />
                 </form>
             </div>
-            </div>
+            
 
             <div className="search-results">
             <SearchResults {...this.props} results={this.state.results} handleMeals = {this.props.handleMeals} selectedMeal={this.props.selectedMeal} />

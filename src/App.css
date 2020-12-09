@@ -12,6 +12,7 @@ html {
 
 .app-background {
   background-color: rgb(rgba(255, 255, 255, 0.226));
+  height: max-content;
 }
 
 .all-food {
@@ -155,27 +156,29 @@ height: 1em;
 
 
 .search {
-  position: absolute;
-  top: 11vw;
-  left: 32vw;
   color: #fff;
+  margin: 3vw 0vw;
+}
+
+.search h3{
+  font-size: 1.5em;
+  color: rgb(0, 0, 0);
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
 
 .search-img img{
   width: 100vw;
 }
 
-.search-img{
-  width: 100vw;
-
-}
 
 .search-page {
   width: 100vw;
-  height: 80vw;
+  height: inherit;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url('possible-header.png');
+  background-attachment: fixed;
 
 }
 
@@ -186,8 +189,6 @@ height: 1em;
   justify-content: space-evenly;
   width: 75vw;
   background-color: rgba(255, 255, 255, 0.514);
-  position: absolute;
-  top: 8vw;
   z-index: 1;
 }
 
@@ -215,9 +216,8 @@ input[type='text'],
   width: 700px;
   text-align: center;
   border: none;
-  color: #ffffff;
   border-bottom: 1px solid white;
-  background-color: rgba(255, 255, 255, 0.479);
+  background-color: rgba(255, 255, 255, 0.904);
   font-size: 18px;
 }
 
