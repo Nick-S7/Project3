@@ -9,7 +9,7 @@ export default class MealsPage extends Component {
 
     }
 
-//checking for category
+
     componentDidMount(){
         if (!this.props.selectedCategory) {
             this.props.history.push('/')
