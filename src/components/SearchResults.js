@@ -14,7 +14,7 @@ const SearchResults = (props) => {
 
     </div>
 
-
+//commit check for display
   ))
 
   return <div className="search-results">{options}</div>
