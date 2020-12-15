@@ -8,8 +8,6 @@ import MealDetails from "./components/MealDetails.js";
 import SearchBar from "./components/SearchBar.js";
 import Navbar from "./components/NavBar";
 
-//dont need selected meal
-
 
 export default class App extends Component {
   state = {
