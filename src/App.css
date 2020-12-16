@@ -159,7 +159,8 @@ height: 1em;
 .search {
   color: #fff;
   background-color: #ffffff2d;
-  margin: 3vw 0vw;
+  margin-top: 6vw;
+  margin-bottom: 1vw;
   padding: .5em;
   border-radius: 40%;
 }
