@@ -48,6 +48,7 @@ border: .05px solid rgba(71, 56, 31, 0.445);
 .single-category:hover {
   border: 1px solid #fff;
   color: rgba(71, 56, 31, 0.445);
+  cursor: pointer;
 }
 
 .single-category img {
@@ -157,13 +158,23 @@ height: 1em;
 
 .search {
   color: #fff;
+  background-color: #ffffff2d;
   margin: 3vw 0vw;
+  padding: .5em;
+  border-radius: 40%;
 }
 
 .search h3{
-  font-size: 1.5em;
+  font-size: 1.7em;
+  font-weight: 400;
   color: rgb(0, 0, 0);
   text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+  margin-top: 0;
+}
+.search h5{
+  font-size: 1em;
+  color: #000000;
+  letter-spacing: 1px;
 }
 
 .search-img img{
@@ -177,8 +188,7 @@ height: 1em;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url('possible-header.png');
-  background-attachment: fixed;
+  
 
 }
 
@@ -188,7 +198,7 @@ height: 1em;
   flex-wrap: wrap;
   justify-content: space-evenly;
   width: 75vw;
-  background-color: rgba(255, 255, 255, 0.514);
+  background-color: rgba(255, 255, 255, 0.314);
   z-index: 1;
 }
 
@@ -209,6 +219,7 @@ height: 1em;
 .single-meal:hover {
   border: 2px solid rgb(0, 0, 0);
   color: rgb(0, 0, 0);
+  cursor: pointer;
 }
 
 input[type='text'],

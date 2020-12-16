@@ -37,9 +37,9 @@ class Search extends Component {
     return (
       <div className="search-page">
             
-               
             <div className="search">
             <h3>-Search For Recipes-</h3>
+            <h5>Browse recipes by ingredients like chicken, beef and chocolate, and search for seasonal favorites like apples, asparagus, pumpkin, strawberries, zucchini, tomatoes and more.</h5>
                 <form>
                     <input
                      className="search-field"
