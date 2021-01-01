@@ -25,7 +25,7 @@ export default class MealsPage extends Component {
     
 
    }
-   //you dont have to life the state of selected meal
+   
 
     render() {
       
@@ -59,3 +59,4 @@ export default class MealsPage extends Component {
         )
     }
 }
+//check
