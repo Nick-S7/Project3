@@ -59,3 +59,4 @@ export default class MealsPage extends Component {
         )
     }
 }
+//type
