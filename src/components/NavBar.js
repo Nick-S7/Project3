@@ -12,6 +12,6 @@ const navbar = () => {
     </nav>
   )
 }
-//check
+
  
 export default navbar;
