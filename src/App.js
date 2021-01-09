@@ -15,7 +15,7 @@ export default class App extends Component {
     category: "",
     selectedCategory: "",
     meal: "",
-    
+    selectedMeal: "",
   };
 
   componentDidMount() {
