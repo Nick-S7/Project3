@@ -10,6 +10,7 @@ html {
   width: 100vw;
 }
 
+
 .app-background {
   background-color: rgb(rgba(255, 255, 255, 0.226));
   height: max-content;
@@ -154,7 +155,7 @@ height: 1em;
   background-color: #ffffffb0;
   text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
-
+/*check*/
 
 .search {
   color: #fff;
