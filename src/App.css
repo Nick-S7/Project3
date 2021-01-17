@@ -157,6 +157,7 @@ height: 1em;
 }
 
 
+
 .search {
   color: #fff;
   background-color: #ffffff2d;
@@ -285,6 +286,8 @@ input[type='text'],
   color: #fff;
 
 }
+
+/*ingredients and measurements */
 
 .measurements{
   padding-left: 8em;
