@@ -34,7 +34,7 @@ html {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-
+/* nav styling */ 
 .all-meals img {
   width: 6vw;
 }
