@@ -16,7 +16,7 @@ html {
   background-color: rgb(rgba(255, 255, 255, 0.226));
   height: max-content;
 }
-
+/* nav styling */ 
 .all-food {
   display: flex;
   width: 99vw;
@@ -34,7 +34,7 @@ html {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-/* nav styling */ 
+
 .all-meals img {
   width: 6vw;
 }
