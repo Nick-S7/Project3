@@ -242,6 +242,7 @@ input[type='text'],
   width: fit-content;
 }
 
+
 .detail-img h3{
   color: rgb(71, 56, 31);
   text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
